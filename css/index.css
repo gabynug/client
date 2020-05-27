@@ -1,0 +1,319 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+    margin: 10px;
+    font-family: 'Amiri', serif;
+}
+
+nav ul li{
+    display:inline;
+    list-style-type: none;
+    padding: 20px 25px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.gridwrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+/* HOME */
+.events{
+    color:red;
+}
+.restaurants{
+   color: orange;
+}
+.exhibitions{
+    color:green;
+}
+.donate{
+    color: blue;
+}
+.contact{
+    color:purple;
+}
+a:hover{
+    color: black;
+}
+.aboutus{
+    text-align: center;
+    font-size: 2.4em;
+    padding-top:  30px;
+    font-family: 'Amiri', serif;
+    margin: 0;
+}
+.galimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.aboutpara{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    line-height:40px;
+    text-indent: 50px;
+    font-family: 'Amiri', serif;
+
+}
+.exhibit{
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+.insta{
+    color:blue;
+    padding:30px;
+    font-family: 'Amiri', serif;
+}
+    
+.num{
+    padding:10px;
+    background-color: beige;
+    margin-right: 850px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Amiri', serif;
+    margin-left: -110px;
+}
+.hours{
+    font-family: 'Amiri', serif;
+}
+.logos{
+    display: block;
+    margin-left:0px;
+}
+.juliolink{
+    color: orange;
+}
+/*EVENTS*/
+.home{
+    color:red;
+}
+.volunteer{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    background-color: beige;
+    font-family: 'Amiri', serif;
+    border: 3px solid #78BABD;
+    font-size: 18px;
+}
+.volunteer > a{
+    font-size: 19px;
+    color:orange;
+}
+.volunteer > a:hover{
+    color: black;
+}
+.filmimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filmpara{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+    background-color: beige;
+    padding: 40px;
+    margin-bottom: 100px;
+    font-family: 'Amiri', serif;
+    border: 3px solid #78BABD;
+}
+.volhead{
+    text-align: center;
+    font-size: 2em;
+    padding-top:  30px;
+    font-family: 'Amiri', serif;
+    border: 3px solid #78BABD;
+    padding:5px;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.volop{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    background-color: beige;
+    font-family: 'Amiri', serif;
+    border: 4px solid #78BABD;
+    font-size: 18px;
+}
+.rsvp{
+    color:orange;
+}
+hr{
+    margin:40px;
+    border-color:#78BABD;
+}
+/*RESTAURANT*/
+.eventtwo{
+    color:orange;
+}
+.cafe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid #78BABD;
+}
+.restpara{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    line-height:40px;
+    text-indent: 50px;
+    font-family: 'Amiri', serif;
+    padding: 20px;
+    border: 3px solid #BDA778;
+    border-radius:10px;
+    font-size: 18px;
+}
+.local{
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+.mapone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.woodman{
+    text-align: center;
+    font-size: 2.4em;
+    padding-top:  30px;
+    font-family: 'Amiri', serif;
+    margin: 0;
+    color:red;
+}
+.sor{
+    text-align: center;
+    font-size: 2.4em;
+    padding-top:  30px;
+    font-family: 'Amiri', serif;
+    margin: 0;
+    color:orange;
+}
+.dea{
+   text-align: center;
+    font-size: 2.4em;
+    padding-top:  30px;
+    font-family: 'Amiri', serif;
+    margin: 0;
+    color:green; 
+}
+/*EXHIBITIONS*/
+.restaurantsone{
+    color:green;
+}
+.wall{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centered{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 4em;
+    font-family: 'Staatliches', cursive;
+
+}
+.julio{
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 50px;
+    font-family: 'Amiri', serif;
+}
+.exhibdate{
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+.julioimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.doggy{
+    margin-right: auto;
+    width: 50%; 
+}
+.buffo{
+    text-align: center;
+}
+.bandw{
+    margin-left: 100px;
+    margin-right: auto;
+}
+.oils{
+    margin-left: 140px;
+    margin-right: auto;
+}
+/*DONATIONS AND ARTIST RATES*/
+.donations{
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    background-color: beige;
+    font-family: 'Amiri', serif;
+    border: 3px solid #78BABD;
+    font-size: 18px;
+}
+.thankyou{
+    text-align: center;
+    color:gray;
+    letter-spacing: 40px;
+    font-size: 4em;
+    font-family: 'Amiri', serif;
+}
+.thx{
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    background-color: beige;
+    font-family: 'Amiri', serif;
+    border: 3px solid #BDA778;
+    font-size: 18px;
+}
+.confetti{
+    margin-left: 45em;
+}
+.first{
+    margin-left:460px;
+    background-color: beige;
+    margin-right: 430px;
+    font-family: 'Amiri', serif;
+    padding: 10px
+}
+.second{
+    margin-left:460px;
+    border: 3px solid beige;
+}
+.third{
+    text-align: center;
+    margin-left:460px;
+    background-color: beige;
+    margin-right: 430px;
+    font-family: 'Amiri', serif;
+    padding: 10px 
+}
